@@ -1,0 +1,96 @@
+2023-09-22 17:32:11.8175 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 17:32:11.8472 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 17:32:11.8625 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 17:32:11.8754 Info Configuration initialized.
+2023-09-22 17:48:37.9335 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 17:48:37.9569 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 17:48:37.9696 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 17:48:37.9696 Info Configuration initialized.
+2023-09-22 21:46:27.8908 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 21:46:27.9594 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 21:46:27.9860 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 21:46:28.0050 Info Configuration initialized.
+2023-09-22 21:47:44.5083 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 21:47:44.5345 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 21:47:44.5519 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 21:47:44.5636 Info Configuration initialized.
+2023-09-22 21:48:49.1883 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 21:48:49.1883 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 21:48:49.2087 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 21:48:49.2087 Info Configuration initialized.
+2023-09-22 21:51:38.7790 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 21:51:38.8010 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 21:51:38.8132 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 21:51:38.8132 Info Configuration initialized.
+2023-09-22 21:52:00.1203 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 21:52:00.1433 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 21:52:00.1592 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 21:52:00.1727 Info Configuration initialized.
+2023-09-22 21:55:19.3833 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 21:55:19.4062 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 21:55:19.4206 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 21:55:19.4346 Info Configuration initialized.
+2023-09-22 21:55:26.5845 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 21:55:26.5972 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 21:55:26.5972 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 21:55:26.6136 Info Configuration initialized.
+2023-09-22 22:28:11.4275 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 22:28:11.4403 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 22:28:11.4403 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 22:28:11.4587 Info Configuration initialized.
+2023-09-22 23:13:37.3360 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 23:13:37.3506 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 23:13:37.3622 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 23:13:37.3622 Info Configuration initialized.
+2023-09-22 23:49:57.1429 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-22 23:49:57.1580 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-22 23:49:57.1580 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-22 23:49:57.1788 Info Configuration initialized.
+2023-09-23 15:25:09.4063 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 15:25:09.4301 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 15:25:09.4301 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 15:25:09.4549 Info Configuration initialized.
+2023-09-23 15:25:55.2396 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 15:25:55.2617 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 15:25:55.2750 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 15:25:55.2750 Info Configuration initialized.
+2023-09-23 15:30:27.1735 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 15:30:27.1981 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 15:30:27.2131 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 15:30:27.2259 Info Configuration initialized.
+2023-09-23 15:48:50.0561 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 15:48:50.0808 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 15:48:50.0971 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 15:48:50.1117 Info Configuration initialized.
+2023-09-23 16:07:52.6863 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 16:07:52.7125 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 16:07:52.7272 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 16:07:52.7446 Info Configuration initialized.
+2023-09-23 16:18:19.5933 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 16:18:19.6149 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 16:18:19.6280 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 16:18:19.6403 Info Configuration initialized.
+2023-09-23 16:18:27.7875 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 16:18:27.8091 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 16:18:27.8215 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 16:18:27.8215 Info Configuration initialized.
+2023-09-23 16:19:27.8429 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 16:19:27.8674 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 16:19:27.8674 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 16:19:27.8918 Info Configuration initialized.
+2023-09-23 16:20:22.1054 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 16:20:22.1284 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 16:20:22.1414 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 16:20:22.1531 Info Configuration initialized.
+2023-09-23 16:29:42.0698 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 16:29:42.0958 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 16:29:42.1113 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 16:29:42.1230 Info Configuration initialized.
+2023-09-23 22:30:37.6220 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 22:30:37.6538 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 22:30:37.6717 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 22:30:37.6879 Info Configuration initialized.
+2023-09-23 23:33:32.2644 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-09-23 23:33:32.2898 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2023-09-23 23:33:32.3034 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\Omer\source\repos\Core\Store.WebAPI\nlog.config
+2023-09-23 23:33:32.3034 Info Configuration initialized.
