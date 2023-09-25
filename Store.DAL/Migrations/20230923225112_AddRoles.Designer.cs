@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Store.DAL.Context;
 
@@ -11,9 +12,10 @@ using Store.DAL.Context;
 namespace Store.DAL.Migrations
 {
     [DbContext(typeof(StoreAppDbContext))]
-    partial class StoreAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230923225112_AddRoles")]
+    partial class AddRoles
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

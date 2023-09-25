@@ -1,18 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Store.DAL.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Store.DAL.Context
 {
-	public class StoreAppDbContext : DbContext
+	public class StoreAppDbContext : IdentityDbContext<User>
 	{
 		protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
+			base.OnModelCreating(modelBuilder);
 			modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 		}
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -22,8 +20,6 @@ namespace Store.DAL.Context
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
-		public DbSet<User> Users { get; set; }
-		public DbSet<Role> Roles { get; set; }
-		public DbSet<UserRole> UserRoles { get; set; }
+	
 	}
 }

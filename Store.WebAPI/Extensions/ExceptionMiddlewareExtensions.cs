@@ -23,8 +23,18 @@ namespace Store.WebAPI.Extensions
 						context.Response.StatusCode = contextFeature.Error switch
 						{
 							NotFoundException => StatusCodes.Status404NotFound,
-							_=> StatusCodes.Status500InternalServerError,
+							_ => StatusCodes.Status500InternalServerError,
+
 						};
+
+
+						context.Response.StatusCode = contextFeature.Error switch
+						{
+						  InvalidException => StatusCodes.Status400BadRequest,
+						  _ =>StatusCodes.Status400BadRequest,
+						};
+						
+
 
 
 						logger.LogError($"Birşeyler ters gitti : {contextFeature.Error}");

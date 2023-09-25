@@ -7,8 +7,7 @@ using NLog;
 using Store.Business.Abstract;
 using Store.Business.Concrete;
 using Store.DAL.Context;
-using Store.DAL.LoginSecurity.Encryption;
-using Store.DAL.LoginSecurity.Helper;
+using Store.DAL.Entities;
 using Store.DAL.MongoEntity;
 using Store.WebAPI.Extensions;
 //using Store.DAL.LoginSecurity.Entity.TokenOptions;
@@ -20,11 +19,30 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<StoreAppDbContext>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<ITokenHelper,TokenHelper>();
 builder.Services.AddScoped<IProductCoverImageService,ProductCoverImageService>();
 builder.Services.AddScoped<IMongoDbContext, MongoDbContext>();
+builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddSingleton<ILoggerService, LoggerManager>();
+
+builder.Services.AddAuthentication();
+builder.Services.AddIdentity<User, IdentityRole>(opts =>
+{
+	opts.Password.RequireDigit = true; 
+	opts.Password.RequireLowercase = false; 
+	opts.Password.RequireUppercase = false; 
+	opts.Password.RequireNonAlphanumeric = false; 
+	opts.Password.RequiredLength = 6; 
+	
+	opts.User.RequireUniqueEmail = true;
+	
+	
+
+})
+	.AddEntityFrameworkStores<StoreAppDbContext>()
+	.AddDefaultTokenProviders();
+
+builder.Services.ConfigureJWT(builder.Configuration);
+
 
 builder.Services.AddSwaggerGen(s =>
 {
@@ -72,23 +90,7 @@ builder.Services.AddSwaggerGen(s =>
 
 builder.Services.Configure<MongoOptions>(builder.Configuration.GetSection("MongoOptions"));
 
-//JWT AYARI
-var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<Store.DAL.LoginSecurity.Entity.TokenOptions>();
-builder.Services.Configure<Store.DAL.LoginSecurity.Entity.TokenOptions>(builder.Configuration.GetSection("TokenOptions"));
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(jwtOption =>
-{
-	jwtOption.TokenValidationParameters = new TokenValidationParameters
-	{
-		ValidateAudience = true,
-		ValidateIssuer = true,
-		ValidateLifetime = true,
-		ValidateIssuerSigningKey = true,
-		ValidIssuer = tokenOptions.Issuer,
-		ValidAudience = tokenOptions.Audience,
-		IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey),
-		ClockSkew = TimeSpan.Zero
-	};
-});
+
 
 
 LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(),"/nlog.config"));
@@ -135,11 +137,11 @@ if (app.Environment.IsProduction())
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
-
 app.UseRouting();
 
 app.UseCors("CorsPolicy");
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Store.DAL.Context;
 
@@ -11,9 +12,10 @@ using Store.DAL.Context;
 namespace Store.DAL.Migrations
 {
     [DbContext(typeof(StoreAppDbContext))]
-    partial class StoreAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230923221526_init")]
+    partial class init
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,22 +49,6 @@ namespace Store.DAL.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "cf021577-649f-4629-a15b-2eba7a9fa768",
-                            ConcurrencyStamp = "e287c8f5-0cdd-45c6-b49f-95a3f04bb72b",
-                            Name = "User",
-                            NormalizedName = "USER"
-                        },
-                        new
-                        {
-                            Id = "64a0816d-4241-40f0-b877-1fbe43dcd83e",
-                            ConcurrencyStamp = "ad977ad5-40eb-40f3-8221-6f8ae880614a",
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

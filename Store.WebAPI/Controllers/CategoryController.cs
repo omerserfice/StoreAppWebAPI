@@ -25,7 +25,7 @@ namespace Store.WebAPI.Controllers
 
 		}
 
-	
+		[Authorize(Roles = "User")]
 		[HttpGet("GetListCategory")]
 		public async Task<ActionResult<List<GetCategoryListDto>>> GetCategoryList()
 		{
@@ -83,19 +83,19 @@ namespace Store.WebAPI.Controllers
 			var list = new List<string>();
 			if (id <= 0)
 			{
-				list.Add("Kategori id geçersiz.");
-				return Ok(new { code = StatusCode(1001), message = list, type = "error" });
+				throw new InvalidCategoryIdException(id);
+				//list.Add("Kategori id geçersiz.");
+				//return Ok(new { code = StatusCode(1001), message = list, type = "error" });
 			}
-			
-			//if (result == null)
-			//{
-			//	//list.Add("Kategori bulunamadı.");
-			//	//return Ok(new { code = StatusCode(1001), message = list, type = "error" });
-			//	throw new CategoryNotFoundException(id);
-			//}
+			var result = await _categoryService.GetCategoryByIdAsync(id);
+			if (result == null)
+			{
+				
+				throw new CategoryNotFoundException(id);
+			}
 			else
 			{
-				var result = await _categoryService.GetCategoryByIdAsync(id);
+				
 				return Ok(new { code = StatusCode(1000), message = result, type = "success" });
 			}
 
